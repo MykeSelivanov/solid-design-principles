@@ -8,14 +8,6 @@ public class Employee {
     private String address;
     private Date dateOfJoining;
 
-    public boolean isPromotionDueThisYear() {
-        //promotion logic
-    }
-
-    public double calcIncomeTaxForCurrentYear() {
-        //income tax logic
-    }
-
     // getters and setters for all member variables
     public String getEmployeeId() {
         return employeeId;
