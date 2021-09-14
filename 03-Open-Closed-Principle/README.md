@@ -14,5 +14,13 @@
 - prevents situations in which a change to one of your classes also requires you to adapt all depending classes
 - reduces tight coupling
 
-#### In modern
+#### In modern object-oriented programming Open-Closed Principle was redefined and if often referred as Polymorphic Open-Closed Principle
+- uses interfaces instead of super classes to allow different implementations
+- interfaces can be reused through inheritance, but implementation need not be
+- can easily substitute without changing the code that uses them: multiple implementations can be created and polymorphically substitute for each other
+
+#### Interfaces are closed for modifications
+- you can provide new implementations to extend the functionality
+- new implementations must implement the interface
+- interfaces introduce and additional level of abstraction, which enables loose coupling; interfaces are independent of each other and don't need to share any code(usually)
 
