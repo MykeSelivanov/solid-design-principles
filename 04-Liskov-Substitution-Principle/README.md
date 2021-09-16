@@ -20,5 +20,5 @@ that calls this method on an object of the superclass might cause an exception, 
 - the Open/Closed principle states, that a class should be open for extension and closed for modification:
     - we override the original class and implement the functionality to be changed in the overriding class
     - when the subclass object is used in place of the super-class, the overriden functionality is executed
-    - this behavior is exactly in ling with the Liskov Substitution Principle
+    - this behavior is exactly in line with the Liskov Substitution Principle
     
