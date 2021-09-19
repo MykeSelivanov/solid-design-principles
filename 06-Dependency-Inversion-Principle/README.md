@@ -20,8 +20,24 @@ Dependency inversion principle states that entities must depend on abstractions 
     - this top-down approach makes it extremely difficult and costly to maintain and extend the functionality of the layers
     
 #### Dependency Inversion principle introduces the layer of abstraction between each higher level class and lower level concrete class 
+- higher level classes depend only on a common abstraction
+- lower-level classes can then be modified or extendeed without the fear of distributing higher-level classes
 
+#### Dependency inversion provides loose coupling between higher and lower level classes by introducing an abstraction layer
+- highly beneficial for maintaining and extending the overall system
 
+#### Object Oriented guidelines for adhering to Dependency Inversion principle
+- No variable should hold a reference to a concrete class
+    - use the factory design pattern to avoid this
+    
+- No class should subclass from a concrete class 
+    - if you subclass from a concrete class, you are depending on a concrete class
+    - sublclass from an abstraction (an interface or an abstract class)
+    
+- No method should override an implemented method of any of its base classes
+    - if you override an implemented method, then your base class was not really an abstraction to start with
+    - methods implemented in the base class are meant to be shared by all your subclasses
+    
 
 
     
