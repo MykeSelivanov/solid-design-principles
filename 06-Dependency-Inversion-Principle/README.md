@@ -14,6 +14,14 @@ Dependency inversion principle states that entities must depend on abstractions 
 - top to bottom dependency has inverted itself, with both high-level and low-level classes now depending on an abstraction
 
 
+#### Dependency Inversion removes tight coupling that comes with a top-down design approach 
+- each higher class in top-down is tightly coupled with its lower level concrete class:
+    - any change in the lower class will have a ripple effect in the next higher level class
+    - this top-down approach makes it extremely difficult and costly to maintain and extend the functionality of the layers
+    
+#### Dependency Inversion principle introduces the layer of abstraction between each higher level class and lower level concrete class 
+
+
 
 
     
