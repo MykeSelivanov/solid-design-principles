@@ -1,5 +1,11 @@
 package harddependenciesexample;
 
+class ExampleService {
+    public String getName() {
+        return "ExampleService test";
+    }
+}
+
 class Client {
     // Internal reference to the service used by this client
     private ExampleService service;

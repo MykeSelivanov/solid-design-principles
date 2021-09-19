@@ -13,7 +13,21 @@
 
 - Dependency injection solves the issue of 'hard' dependencies
 
+## Dependency Injection
 
+#### Dependency Injection is a technique whereby one object supplies the dependencies of another object
+- enables you to replace dependencies without changing the class that uses them
+
+#### A Dependency is an object that can be used (service)
+
+#### An Injection is the passing of a dependency to a dependent object (a client) that would use it
+
+#### Allows us to remove the hard-coded dependencies and make our application loosely coupled, extandable and maintainable
+
+#### Dependency Injection is one form of the broader technique of dependency inversion
+- it supports the dependency inversion principle
+
+#### The Client delegates the responsibility of providing its dependencies to external code (the injector)
 
     
 
