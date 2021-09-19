@@ -38,6 +38,12 @@ Dependency inversion principle states that entities must depend on abstractions 
     - if you override an implemented method, then your base class was not really an abstraction to start with
     - methods implemented in the base class are meant to be shared by all your subclasses
     
+- All above are the guidelines, but not the strict rules that should be followed all the times
+    - if you have a class that is not likely to change, and you know it, then it is ok to instantiate a concrete class
+    - we instantiate String objects all th time and this violates the principle, however the String class is very unlikely to be changed
+
+
+    
 
 
     
