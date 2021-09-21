@@ -29,6 +29,20 @@
 
 #### The Client delegates the responsibility of providing its dependencies to external code (the injector)
 
+## Roles in dependency injection
+
+#### If you want to use dependency injection, you need classes that fulfill 4 basic roles
+- the service you want to use
+- the client that uses the service
+- an interface that is used by the client and implemented by the service
+- the injector which creates a service instance and injects it into a client
+
+#### You already implement 3 of the above roles by following the Dependency Inversion principle
+- the service and the client are the two classes between which the dependency inversion principle intends to remove the dependency by introducing an interface
+- and the injector is the only role that is not required by the Dependency Inversion principle
+
+
+
     
 
 
