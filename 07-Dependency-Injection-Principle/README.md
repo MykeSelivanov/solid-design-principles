@@ -41,7 +41,18 @@
 - the service and the client are the two classes between which the dependency inversion principle intends to remove the dependency by introducing an interface
 - and the injector is the only role that is not required by the Dependency Inversion principle
 
-
+#### Injection types
+- constructor injection
+    - the dependencies are provided through a class constructor
+    
+- setter injection
+    - the client exposes a setter method that the injector uses to inject the dependency
+    
+- interface injection
+    - the dependency provides an injector method that will inject the dependency into any client passed to it 
+    - client must implement an interface that exposes a setter method that accepts the dependency
+    
+ 
 
     
 
