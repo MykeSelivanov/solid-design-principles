@@ -44,16 +44,20 @@
 #### Injection types
 - constructor injection
     - the dependencies are provided through a class constructor <br>
- ```java
-    // Constructor
-    Client(Service service){
-     // Save the reference to the passed-in service inside this client
-     this.service = service;
-     }  
+    ```java
+// Constructor
+Client(Service service){
+ // Save the reference to the passed-in service inside this client
+ this.service = service;
+ }  
 ```
 
 - setter injection
     - the client exposes a setter method that the injector uses to inject the dependency
+    ```java
+// Setter method
+
+```
     
 - interface injection
     - the dependency provides an injector method that will inject the dependency into any client passed to it 
